@@ -21,6 +21,6 @@ public class FirstController {
 		}catch(Exception e){
 			e.printStackTrace();
 		}
-		return "from home\n"+result;
+		return "from home: ok \n"+result;
 	}
 }
